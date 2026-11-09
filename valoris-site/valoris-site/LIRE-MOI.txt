@@ -1,0 +1,26 @@
+VALORIS STUDIO : SITE
+=====================
+
+OUVRIR LE SITE
+Double-cliquez sur « Ouvrir le site.cmd » (nécessite Node.js, comme avant).
+Les vidéos (YouTube et la bannière mp4) ne se lisent pas si on ouvre index.html directement.
+
+MODIFIER LE SITE
+Tout le contenu est dans content.js : textes, images, vidéos, liens, équipe, partenaires.
+Pour ajouter un projet, une personne ou un partenaire : copiez une ligne { ... } et changez les valeurs.
+Vos images vont dans le dossier images, vos vidéos .mp4 dans un dossier videos (à créer).
+index.html, styles.css et script.js n'ont pas besoin d'être modifiés.
+
+AVANT DE PUBLIER (cherchez « À REMPLACER » dans content.js)
+- adresse e-mail, téléphone, réseaux sociaux
+- les 4 liens vidéo (le même lien provisoire est utilisé partout) et les titres des films
+- image de « Film de territoire » (image provisoire)
+- photo de l'atelier (kid.jpg) et image d'accueil en meilleure définition
+- équipe et partenaires (exemples) ; puis showDrafts: false
+- à propos : statut, année de création
+- mentions légales (obligatoires)
+
+À VALIDER
+- couleur d'accent (--accent dans styles.css) et polices
+- phrases de la section Prestations
+- images des cartes Prestations (image: ...) : Événements utilise une photo provisoire, Collectivités n'en a pas encore
